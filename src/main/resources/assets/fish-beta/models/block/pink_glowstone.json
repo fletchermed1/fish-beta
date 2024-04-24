@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fish-beta:block/pink_glowstone"
+  }
+}

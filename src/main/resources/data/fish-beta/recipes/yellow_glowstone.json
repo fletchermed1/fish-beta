@@ -1,15 +1,16 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "category": "building",
   "ingredients": [
     {
       "item": "minecraft:glowstone"
     },
     {
-      "item": "minecraft:red_dye"
+      "item": "minecraft:yellow_dye"
     }
   ],
   "result": {
-    "item": "fish-beta:red_stained_glowstone",
+    "item": "fish-beta:yellow_glowstone",
     "count": 1
   }
 }

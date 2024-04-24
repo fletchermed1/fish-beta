@@ -20,6 +20,18 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RED_GLOWSTONE);
                         entries.add(ModBlocks.BlUE_GLOWSTONE);
                         entries.add(ModBlocks.LIME_GLOWSTONE);
+                        entries.add(ModBlocks.BLACK_GLOWSTONE);
+                        entries.add(ModBlocks.BROWN_GLOWSTONE);
+                        entries.add(ModBlocks.CYAN_GLOWSTONE);
+                        entries.add(ModBlocks.DARK_GRAY_GLOWSTONE);
+                        entries.add(ModBlocks.GREEN_GLOWSTONE);
+                        entries.add(ModBlocks.LIGHT_BLUE_GLOWSTONE);
+                        entries.add(ModBlocks.LIGHT_GRAY_GLOWSTONE);
+                        entries.add(ModBlocks.MAGENTA_GLOWSTONE);
+                        entries.add(ModBlocks.ORANGE_GLOWSTONE);
+                        entries.add(ModBlocks.PINK_GLOWSTONE);
+                        entries.add(ModBlocks.PURPLE_GLOWSTONE);
+                        entries.add(ModBlocks.YELLOW_GLOWSTONE);
                     }).build());
 
     public static void registerItemGroups() {
