@@ -2,6 +2,9 @@ package net.fletchermed.fishbeta;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fletchermed.fishbeta.block.ModBlocks;
+import net.fletchermed.fishbeta.item.ModItemGroups;
+import net.fletchermed.fishbeta.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +14,8 @@ public class FishBeta implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Fish Beta has been loaded");
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
