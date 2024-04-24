@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "fish-beta",
+	"version": "${version}",
+	"name": "Fish Beta",
+	"description": "This is a mod made for the fish beta modpack that aims to recreate the feel of beta with a few features from later versions of the game, this mod adds a few extra blocks and more will be added as time goes.",
+	"authors": [
+		"fletchermed"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/fish-beta/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.fletchermed.fishbeta.FishBeta"
+		],
+		"client": [
+			"net.fletchermed.fishbeta.FishBetaClient"
+		],
+		"fabric-datagen": [
+			"net.fletchermed.fishbeta.FishBetaDataGenerator"
+		]
+	},
+	"mixins": [
+		"fish-beta.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
